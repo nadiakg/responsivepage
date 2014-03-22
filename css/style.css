@@ -154,10 +154,6 @@ ul.nav li a {
 	width: 100%;
 }
 
-#popular-cupcakes img {
-	border: 8px solid #faf3bc;
-}
-
 #travel img {
 	border: 8px solid #faf3bc;
 	height: 100%;
@@ -175,3 +171,78 @@ ul.nav li a {
 	margin: 15px 0;
 	text-align: center;
 }
+
+/*media queries*/
+
+@media screen and (max-width: 480px) {
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	width:100%;
+}
+#admirals img {
+	max-width: 100%;
+}
+ul.nav {
+	margin: 5% 0;
+}
+
+ul.nav li a {
+	-webkit-user-select: none;
+	font-size: 0.750em;
+}
+
+ul.nav li {
+	float: left;
+	margin: 5% 0;
+	}
+	ul.nav li.about {
+		width: 20%;
+		text-align: left;
+	}
+	ul.nav li.portfolio {
+		width: 55%;
+		text-align: center;
+	}
+	ul.nav li.contactme {
+		width: 25%;
+		text-align: right;
+	}
+
+
+#intro, #me, #background {
+	display: none;
+}
+#travel, #food {
+	margin: 5% 0;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
